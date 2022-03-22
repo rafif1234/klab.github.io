@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tittle registrasi">
+            <h2 class="form-signin-heading" align="center">REGISTRASI</h2>
+
+        </div>
+        <form class="form-signin" method="post" enctype="multipart/form-data">
+            <div class="input">
+                <div class="input-form">
+                    <label for="username">Username</label>
+                    <br>
+                    <input type="text" id="username" name="username" class="form-control" placeholder="Username"
+                        required autofocus>
+                </div>
+
+                <div>
+                    <label for="password">Password</label>
+                    <br>
+                    <input type="password" id="password" name="password" class="form-control" placeholder="Kata Sandi"
+                        required autofocus>
+                </div>
+
+                <div>
+                    <label for="passwordConf">Confirm Password</label>
+                    <br>
+                    <input type="password" id="passwordConf" name="passwordConf" class="form-control"
+                        placeholder="Ulangi Kata Sandi" required>
+                </div>
+
+                <div>
+                    <label for="foto"> Foto KTP </label>
+                    <br>
+                    <input type="file" id="foto" name="foto">
+                </div>
+
+                <div>
+                    <a href="./login.php" class="btn btn-lg btn-warning">Batal</a>
+                    <button class="btn btn-lg btn-success " type="submit" name="submit">Register</button>
+                </div>
+            </div>
+
+
+
+
+        </form>
+    </div>
+</body>
+
+
+
+
+</html>
